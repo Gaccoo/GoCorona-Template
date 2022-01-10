@@ -1,0 +1,37 @@
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 0 60px;
+  align-items: center;
+  height: 10vh;
+  gap: 1%;
+  z-index: 1;
+}
+
+.header__logo {
+  justify-self: start;
+  width: 10vw;
+}
+
+.navigation {
+  justify-self: end;
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+.navLink {
+  text-decoration: none;
+  font-size: calc(10px + 1vmin);
+  font-weight: bold;
+  color: #000;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+}
+
+.header__action {
+  justify-self: end;
+  z-index: 1;
+}
+

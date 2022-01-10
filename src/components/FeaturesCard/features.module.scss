@@ -1,0 +1,31 @@
+@import "../../styles/design-scheme.module";
+
+.card {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 18px rgba(88, 126, 236, 0.18);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.icon {
+  width: 50%;
+  margin-bottom: 5vh;
+}
+
+.feature {
+  font-size: $textMedium;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.text {
+  line-height: 1.3;
+  flex-wrap: wrap;
+  font-size: $textMedium;
+}

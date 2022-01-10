@@ -1,0 +1,13 @@
+.titleMain {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 70%;
+}
+
+.heading {
+  font-size: calc(12px + 5vmin);
+  font-weight: 800;
+  line-height: 1.2;
+}
+

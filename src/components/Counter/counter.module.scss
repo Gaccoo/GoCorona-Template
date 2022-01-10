@@ -1,0 +1,29 @@
+@import "../../styles/design-scheme.module";
+
+.box {
+  width: 60vw;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.count {
+  color: $base-red;
+  font-size: $textBig;
+  font-weight: 800;
+}
+
+.text {
+  font-size: $textMedium;
+  font-weight: 800;
+  letter-spacing: 0.37em
+}
